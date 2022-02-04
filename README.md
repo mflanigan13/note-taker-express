@@ -10,6 +10,7 @@
 
 ## Description
 This is a simple Note Taker application that allows users to add notes, view saved notes and also delete the notes. This application uses an express backend, as well as a save and retrieve note data from a JSON file.
+
 ![11-express-homework-demo-01.png](https://github.com/mflanigan13/note-taker-express/blob/main/public/assets/images/11-express-homework-demo-01.png)
 
 ## Usage
