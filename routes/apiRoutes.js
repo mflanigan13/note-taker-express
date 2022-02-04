@@ -1,6 +1,8 @@
+// importing modules
 const router = require('express').Router()
 const store = require('../db/store')
 
+// Retrieves a note
 router.get('/notes', (req, res) => {
     store
         .getNotes()
@@ -8,6 +10,7 @@ router.get('/notes', (req, res) => {
         .catch(err => res.status(500).json(err))
 })
 
+// Creates a note 
 router.post('/notes', (req, res) => {
     store
         .addNote(req.body)
@@ -15,6 +18,7 @@ router.post('/notes', (req, res) => {
         .catch(err => res.status(500).json(err))
 })
 
+// Deletes a note with specific id
 router.delete('/notes/:id', (req, res) => {
     store
         .removeNote(req.params.id)
@@ -22,4 +26,5 @@ router.delete('/notes/:id', (req, res) => {
         .catch(err => res.status(500).json(err))
 })
 
+// export
 module.exports = router;
