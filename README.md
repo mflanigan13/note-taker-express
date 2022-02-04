@@ -3,18 +3,14 @@
 ## Table of Contents
 
 * [Description](#description)
-* [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [Tests](#tests)
 * [Questions](#questions)
 
 
 ## Description
 This is a simple Note Taker application that allows users to add notes, view saved notes and also delete the notes. This application uses an express backend, as well as a save and retrieve note data from a JSON file.
-
-## Installation
-
+![11-express-homework-demo-01.png]()
 
 ## Usage
 Clone this repository to use this application on local machine.
@@ -28,9 +24,6 @@ Open browser and type http://localhost:3000/ to run this application on your loc
 
 ## Contributing
 This is a project for my bootcamp and did not have any contributors.
-
-## Tests
-
 
 ## Questions
  Please contact me using the following links:
