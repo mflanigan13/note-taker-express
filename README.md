@@ -1,4 +1,4 @@
-# Note Taker Starter Code
+# Note Taker 
 
 ## Table of Contents
 
